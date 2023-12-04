@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  hm8
-//
-//  Created by Карен Узунян on 03.12.2023.
-//
+
 
 import UIKit
 

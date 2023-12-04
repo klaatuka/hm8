@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA15A052B1DF709005BB0F4 /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA15A042B1DF709005BB0F4 /* WebKitViewController.swift */; };
 		6BE41BB82B1CCCC90008D140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE41BB72B1CCCC90008D140 /* AppDelegate.swift */; };
 		6BE41BBA2B1CCCC90008D140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE41BB92B1CCCC90008D140 /* SceneDelegate.swift */; };
 		6BE41BBC2B1CCCC90008D140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE41BBB2B1CCCC90008D140 /* ViewController.swift */; };
 		6BE41BBF2B1CCCC90008D140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE41BBD2B1CCCC90008D140 /* Main.storyboard */; };
 		6BE41BC12B1CCCCA0008D140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE41BC02B1CCCCA0008D140 /* Assets.xcassets */; };
 		6BE41BC42B1CCCCA0008D140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE41BC22B1CCCCA0008D140 /* LaunchScreen.storyboard */; };
+		6BE41BCC2B1CD4730008D140 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE41BCB2B1CD4730008D140 /* CustomCell.swift */; };
+		6BE41BCE2B1CE5160008D140 /* CollectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE41BCD2B1CE5160008D140 /* CollectData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA15A042B1DF709005BB0F4 /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		6BE41BB42B1CCCC90008D140 /* hm8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hm8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE41BB72B1CCCC90008D140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BE41BB92B1CCCC90008D140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		6BE41BC02B1CCCCA0008D140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE41BC32B1CCCCA0008D140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BE41BC52B1CCCCA0008D140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE41BCB2B1CD4730008D140 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6BE41BCD2B1CE5160008D140 /* CollectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				6BE41BB72B1CCCC90008D140 /* AppDelegate.swift */,
 				6BE41BB92B1CCCC90008D140 /* SceneDelegate.swift */,
 				6BE41BBB2B1CCCC90008D140 /* ViewController.swift */,
+				6BA15A042B1DF709005BB0F4 /* WebKitViewController.swift */,
+				6BE41BCB2B1CD4730008D140 /* CustomCell.swift */,
 				6BE41BBD2B1CCCC90008D140 /* Main.storyboard */,
+				6BE41BCD2B1CE5160008D140 /* CollectData.swift */,
 				6BE41BC02B1CCCCA0008D140 /* Assets.xcassets */,
 				6BE41BC22B1CCCCA0008D140 /* LaunchScreen.storyboard */,
 				6BE41BC52B1CCCCA0008D140 /* Info.plist */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE41BBC2B1CCCC90008D140 /* ViewController.swift in Sources */,
+				6BE41BCE2B1CE5160008D140 /* CollectData.swift in Sources */,
+				6BA15A052B1DF709005BB0F4 /* WebKitViewController.swift in Sources */,
 				6BE41BB82B1CCCC90008D140 /* AppDelegate.swift in Sources */,
+				6BE41BCC2B1CD4730008D140 /* CustomCell.swift in Sources */,
 				6BE41BBA2B1CCCC90008D140 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
